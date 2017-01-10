@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Patterns</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+    }
+    li {
+      list-style: none;
+      margin: 0;
+      margin-bottom: 16px; 
+      padding: 0;
+    }
+    li:before {
+      content: "\2192\00a0";
+    }
+  </style>
+</head>
+<body>
+  <!-- observer pattern -->
+  <div>
+    <h3>Random Timers</h3>
+    <button id="add-timer">add timer</button>
+    <ul id="timers"></ul>
+    <script src="patterns/observer-pattern.js"></script>
+    <hr />
+  </div>
+  
+</body>
+</html>

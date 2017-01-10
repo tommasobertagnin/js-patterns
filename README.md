@@ -5,7 +5,7 @@ My own versions of the JS design patterns explained in [Learning JavaScript Desi
 - [x] Module Pattern
 - [ ] Revealing Module Pattern
 - [ ] Singleton Pattern
-- [ ] Observer Pattern
+- [x] Observer Pattern
 - [ ] Mediator Pattern
 - [ ] Prototype Pattern
 - [ ] Command Pattern
