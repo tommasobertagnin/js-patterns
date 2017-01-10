@@ -1,11 +1,11 @@
 /*------------------
  OBSERVER PATTERN
  The main components of an observer patter are: Subject, Observer
- Implements a way for  to sub
+ This pattern shows a way for different objects to 'observe' changes on a subject
 
  some details:
- - 
- - 
+ - subject manages a list of observers and notifies them of changes
+ - observer objects implement an interface for the subject to call upon
 ------------------*/
 
 class ObserverList {
